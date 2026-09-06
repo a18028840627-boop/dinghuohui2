@@ -1,0 +1,9 @@
+openpyxl>=3.1.0
+paddleocr>=3.0.0
+# PaddleOCR 3.x builds OCR through PaddleX.  The OCR extras are not pulled in
+# by a plain paddleocr install, which causes pipeline creation to fail.
+paddlex[ocr]>=3.0.0
+paddlepaddle>=3.0.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+tkinterdnd2>=0.3.0; platform_system == "Windows"

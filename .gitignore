@@ -1,0 +1,12 @@
+﻿.venv/
+__pycache__/
+*.py[cod]
+build/
+build_cache/
+dist/
+dist_portable/
+_paddlex_cache/
+*.log
+*.err
+.DS_Store
+Thumbs.db
